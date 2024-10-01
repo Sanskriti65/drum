@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-image: url("images/crash.png");
+  background-position: 85%;
+  /* margin-top: 100px; */
+  background-size: 16%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #000000;
+  font-family: cursive , "Arvo";
+  text-shadow: 5px 0 #c64614;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  margin: 7% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #0590b7;
+  opacity: 0.5;
+}
+
+.red {
+  color: hsl(0, 100%, 50%);
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #433e3e;
+  background-color: transparent;
+  font-family: cursive , "Arvo";
+  font-size: 3rem;
+  font-weight: 900;
+  color: #000000;
+  text-shadow: 5px 0 #e61b1b;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
